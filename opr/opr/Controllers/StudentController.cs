@@ -27,6 +27,7 @@ namespace opr.Controllers
     }
         public ActionResult AddStudent()
         {
+            
             Models.oprEntities dt = new oprEntities();
             List<Models.StudentTable> model = new List<StudentTable>();
 

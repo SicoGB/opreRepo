@@ -13,7 +13,7 @@ namespace opr.Controllers
         // GET: School
         public ActionResult Index()
         {
-            Models.opr1Entities db = new opr1Entities();
+            Models.oprEntities db = new oprEntities();
             List<Models.School> model = new List<School>();
             model = db.Schools.ToList();
             return View(model);
@@ -23,7 +23,7 @@ namespace opr.Controllers
         public ActionResult EditSchool(int id)
         {
 
-            Models.opr1Entities obj = new opr1Entities();
+            Models.oprEntities obj = new oprEntities();
             ViewBag.modifiedBy = User.Identity.Name;
             var eid = obj.Schools.Where(w => w.Id == id).FirstOrDefault();
             if (obj == null)
@@ -37,7 +37,7 @@ namespace opr.Controllers
         [HttpPost]
         public ActionResult EditSchool(opr.Models.School schl)
         {
-            Models.opr1Entities sub = new opr1Entities();          
+            Models.oprEntities sub = new oprEntities();          
             sub.Entry(schl).State = System.Data.Entity.EntityState.Modified;
             try
             {
@@ -63,7 +63,7 @@ namespace opr.Controllers
         [HttpPost]
         public ActionResult AddSchool(opr.Models.School sch)
         {  
-            Models.opr1Entities db = new opr1Entities();
+            Models.oprEntities db = new oprEntities();
             
             db.Schools.Add(sch);
             db.SaveChanges();
@@ -71,7 +71,7 @@ namespace opr.Controllers
         }
         public ActionResult Delete(int id)
         {
-            Models.opr1Entities sub = new opr1Entities();
+            Models.oprEntities sub = new oprEntities();
             School student_table = sub.Schools.Find(id);
             sub.Schools.Remove(student_table);
             sub.SaveChanges();
