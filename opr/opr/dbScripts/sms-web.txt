@@ -1,0 +1,66 @@
+1. School Management
+	i.  School Info
+	ii. Campus Info
+	iii.Class Info
+	iv. Sections Info
+	v.  Groups Info
+	vi. Syllabus Info
+	vii.Session
+
+2. Student Information
+	i.  Student Info
+	ii. Admission Info
+	iii.Complaints
+	iv. Acheiments/Awards
+
+3. Examination System
+	i.  Exams
+	ii. Date Sheet
+	iii.Results
+
+4. Attendance
+	i.  Biomatrix
+	ii. RF ID Cards
+	iii.Barcodes
+	iv. QR Codes
+	v. Mannual
+
+5. Fee
+	i.  Fee Groups
+	ii. Fee Schedule
+	iii.Fee Slip
+	iv. Fee Receiving
+	v.  Advance
+	vi. Outstanding
+	vii.Collections
+Human Resources
+1. Employes
+	i.  Personal Information
+	ii. Joining, Test, Interview
+	iii.Degrees
+	iv. Acheivements
+	v.  Complaints
+	
+2. Salary
+	i.  BPS management
+	ii. Salary Prepration
+	iii.Increments
+	iv. Deductions
+	v.  Payments
+	vi. Advance Payments
+
+3. Attendance
+	i.  Biomatrix
+	ii. RF ID Cards
+	iii.Barcodes
+	iv. QR Codes
+	v. Mannual
+
+4. Assesments
+	i.  By students
+	ii. By Admin
+	iii.From Results
+	iv. From Attendance
+	v.  From Complaints
+	vi. From Acheiments/Awards
+
